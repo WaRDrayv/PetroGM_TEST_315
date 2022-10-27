@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PetroGM_TEST_315", "PetroGM_TEST_315\PetroGM_TEST_315.csproj", "{8F138914-88D6-46C3-AF54-FC6808CD932E}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MathObjects", "MathObjects\MathObjects.shproj", "{AAB2246D-0195-4861-B2A8-A797A453A71A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{F490789E-79EB-4A66-828C-7226C886EFBA}"
+	ProjectSection(SolutionItems) = preProject
+		decomposition.txt = decomposition.txt
+	EndProjectSection
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MathObjFactory", "MathObjFactory\MathObjFactory.shproj", "{D8DEF4E2-AC17-4015-B4EC-7A66B15B1DC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F138914-88D6-46C3-AF54-FC6808CD932E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F138914-88D6-46C3-AF54-FC6808CD932E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F138914-88D6-46C3-AF54-FC6808CD932E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F138914-88D6-46C3-AF54-FC6808CD932E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC089611-F027-44A2-B958-B5836A36045A}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		MathObjFactory\MathObjFactory.projitems*{8f138914-88d6-46c3-af54-fc6808cd932e}*SharedItemsImports = 5
+		MathObjects\MathObjects.projitems*{aab2246d-0195-4861-b2a8-a797a453a71a}*SharedItemsImports = 13
+		MathObjFactory\MathObjFactory.projitems*{d8def4e2-ac17-4015-b4ec-7a66b15b1dc3}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal

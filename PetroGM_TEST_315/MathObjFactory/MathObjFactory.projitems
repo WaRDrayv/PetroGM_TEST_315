@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>d8def4e2-ac17-4015-b4ec-7a66b15b1dc3</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>MathObjFactory</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Factory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IDraw.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MatObject\Circle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MatObject\Line.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MatObject\Point.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MatObject\Rect.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Operations.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TxtParser.cs" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>aab2246d-0195-4861-b2a8-a797a453a71a</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>MathObjects</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Factory\CircleFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Factory\LineFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Factory\MatObjectFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Factory\PointFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Factory\RectangleFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IDraw.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IGeometryObject.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MatObject\Circle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MatObject\Line.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MatObject\Point.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MatObject\Rectangle.cs" />
+  </ItemGroup>
+</Project>
